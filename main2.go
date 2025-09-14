@@ -23,7 +23,7 @@ var errLogger *log.Logger
 
 var (
 	port    = flag.Int("port", 8080, "HTTP代理端口,可选值:1-65535")
-	wssHost = flag.String("wss", "a.xu5.dpdns.org", "websocket地址,[域名]:[端口](非443)")
+	wssHost = flag.String("wss", "c-a82.pages.dev", "websocket地址,[域名]:[端口](非443)")
 	userID  = flag.String("uuid", "2ea73714-138e-4cc7-8cab-d7caf476d51b", "VLESS用户ID")
 	ckSize  = flag.Int("chunk", 64, "websocket每一帧的数据大小(KB),可选值:1-1024")
 	debug   = flag.Bool("debug", false, "是否输出调试信息")
