@@ -1,0 +1,10 @@
+编译main.go
+
+cd C:\Users\abc15\Documents\GitHub\c\备份
+go mod init myproxy
+go mod tidy
+
+cd C:\Users\abc15\Documents\GitHub\c\备份
+go build main.go
+
+./main.exe -wss c-a82.pages.dev
